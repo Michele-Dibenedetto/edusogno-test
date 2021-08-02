@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="css/uikit.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Edusogno</title>
 </head>
 <body>
     <div class="container uk-child-width-1-4@s uk-flex-center uk-text-center">
         <div class="uk-position-center">
-            <form class="uk-form-stacked" method="post" action="">
+            <form class="uk-form-stacked" method="post" action="php/store.php">
                 <!-- UTENTI -->
                 <div id="block_users" class="uk-card uk-card-default uk-card-body">
                     
@@ -39,8 +39,6 @@
                             <input class="uk-input" type="email" name="email" id="email" placeholder="inserisci email">
                         </div>
                     </div>
-
-                    <!-- <button type="submit" class="uk-button uk-button-primary uk-text-center">info</button> -->
                 </div>
                 <!-- EVENTI -->
                 <div id="block_users" class="uk-card uk-card-default uk-card-body">
@@ -62,7 +60,7 @@
                     </div>
 
                     <div style="display: inline-block;">
-                        <label class="uk-form-label" for="Date">Data</label>
+                        <label class="uk-form-label" for="date">Data</label>
                         <div class="uk-form-controls">
                         <input name="date" id="date" type="date">
                         </div>
